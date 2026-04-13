@@ -40,4 +40,3 @@ agentic-ai-workflow/
 │── prompts.py
 │── requirements.txt
 │── README.md
-<img width="611" height="172" alt="Screenshot 2026-04-13 at 10 45 23 PM" src="https://github.com/user-attachments/assets/57370ef0-28c3-46e7-b3fc-fe19b1141704" />
