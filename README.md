@@ -1,3 +1,19 @@
+Project Title: Agentic AI Workflow Automation
+
+What it does:
+
+Converts user intent into actionable steps
+Uses LLM for planning
+Executes tasks via modular tools
+
+Key Concepts:
+
+Agentic AI
+Task decomposition
+Tool-based execution
+Prompt engineering
+
+
 # Agentic-AI-Workflow-Automation
 AI agent that:  Takes a task (e.g., “test login page”) Breaks it into steps Executes steps using tools (LLM + functions).
 
@@ -24,3 +40,4 @@ agentic-ai-workflow/
 │── prompts.py
 │── requirements.txt
 │── README.md
+<img width="611" height="172" alt="Screenshot 2026-04-13 at 10 45 23 PM" src="https://github.com/user-attachments/assets/57370ef0-28c3-46e7-b3fc-fe19b1141704" />
