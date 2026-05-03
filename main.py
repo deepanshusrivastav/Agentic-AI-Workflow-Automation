@@ -1,11 +1,11 @@
-from agent import execute_task
+from agent import run_agent
 
-task_plan = [
-    "Generate test cases for login page",
-    "Debug login API failure"
-]
+if __name__ == "__main__":
+    user_input = input("Enter your task: ")
 
-result = execute_task(task_plan)
+    results = run_agent(user_input)
 
-for r in result:
-    print(r)
+    print("\n✅ Final Output:\n")
+    for r in results:
+        print(r)
+        print("-" * 50)
