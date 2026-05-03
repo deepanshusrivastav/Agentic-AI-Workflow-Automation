@@ -1,42 +1,31 @@
-Project Title: Agentic AI Workflow Automation
+# Agentic AI Workflow Automation
 
-What it does:
+## Overview
+This project demonstrates a basic Agentic AI system that:
+- Breaks down user tasks into actionable steps using LLMs
+- Executes tasks using modular tools
+- Simulates real-world AI-driven automation workflows
 
-Converts user intent into actionable steps
-Uses LLM for planning
-Executes tasks via modular tools
+## Features
+- Task decomposition using LLM
+- Tool-based execution (test generation, debugging)
+- Modular agent architecture
 
-Key Concepts:
+## Tech Stack
+- Python
+- OpenAI API
+- Prompt Engineering
 
-Agentic AI
-Task decomposition
-Tool-based execution
-Prompt engineering
+## Example Use Case
+Input:
+"Test login functionality and debug API failure"
 
+Output:
+- Generates test cases
+- Provides debugging suggestions
 
-# Agentic-AI-Workflow-Automation
-AI agent that:  Takes a task (e.g., “test login page”) Breaks it into steps Executes steps using tools (LLM + functions).
-
-#Architecture(Simple Version)
-
-User Input → LLM (Planner) → Task List
-                   ↓
-              Executor (Python functions)
-                   ↓
-              Final Output
-
-
-#Tech Stack:
-Python
-OpenAI API (or any LLM API)
-Simple CLI (no need UI)
-Optional: LangChain (only if you want)
-
-#Project Structure
-agentic-ai-workflow/
-│── main.py
-│── agent.py
-│── tools.py
-│── prompts.py
-│── requirements.txt
-│── README.md
+## Key Concepts
+- Agentic AI
+- LLM Planning
+- Tool Calling
+- AI Workflow Automation
