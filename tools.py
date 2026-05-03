@@ -1,5 +1,17 @@
-def generate_test_cases(input_text):
-    return f"Generated test cases for: {input_text}"
+def generate_test_cases(task):
+    return f"""
+    [Test Cases Generated]
+    - Validate input fields
+    - Check error handling
+    - Verify successful flow
+    Task: {task}
+    """
 
-def debug_code(input_text):
-    return f"Debug suggestions for: {input_text}"
+def debug_issue(task):
+    return f"""
+    [Debug Suggestions]
+    - Check API response codes
+    - Validate request payload
+    - Inspect logs for errors
+    Issue: {task}
+    """
